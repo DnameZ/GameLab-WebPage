@@ -6,6 +6,7 @@ export const SideContainer=styled.div`
     display:flex;
     width:50vw;
     height:100vh;
+    background-color: ${props => `${props.color}`};
     background-image: ${props => `url(${props.background})`};
     background-size: contain;
     background-repeat: repeat;
