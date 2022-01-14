@@ -5,9 +5,10 @@ import { Images,Colors } from '../../Assets/Lib/GeneralStyles';
 export const SideContainer=styled.div`
     display:flex;
     width:50vw;
-    height:100vh;
+    height:100%;
     background-color: ${props => `${props.color}`};
     background-image: ${props => `url(${props.background})`};
+    background-position: center;
     background-size: contain;
     background-repeat: repeat;
     border-radius: 0 30% 30% 0;`;

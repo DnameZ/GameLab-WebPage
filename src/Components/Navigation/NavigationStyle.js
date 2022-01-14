@@ -4,10 +4,10 @@ import { Colors,Images } from "../../Assets/Lib/GeneralStyles";
 
 export const NavigationContainer=styled.div`
     display:flex;
-    justify-content:flex-start;
     position:absolute;
-    margin-right:5%;
-    width:40%;
+    justify-content:flex-start;
+    margin-right:6%;
+    width:38%;
     height:6%;
     border-style: solid;
     box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.25);
