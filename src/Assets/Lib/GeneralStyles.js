@@ -9,6 +9,14 @@ import UserPhoto from "../../Assets/Images/Mem.png";
 import GalleryPhoto from "../../Assets/Images/Gallery.png";
 import AlienPhoto from "../../Assets/Images/alien.png";
 import BraillePhoto from "../../Assets/Images/Braille.png"
+import MisijaV from "../../Assets/Images/Misija.png";
+import KlijnetiPhoto from "../../Assets/Images/klijenti.png";
+import YojStickPhoto from "../../Assets/Images/yojstick.png";
+import GamePhoto from "../../Assets/Images/IgreButton.png";
+import ContactPhoto from "../../Assets/Images/contact.png";
+import FbIcon from "../../Assets/Images/fbIcon.png";
+import GitIcon from "../../Assets/Images/gitHub.svg";
+import IgIcon from "../../Assets/Images/instagram.png";
 
 
 export const Colors={
@@ -18,7 +26,9 @@ export const Colors={
     HoverColor:"#0077FF",
     RTSGalleryColor:"#00FFCC",
     BrailleColor:"#F7941E",
-    GalleryColor:"#FF641A"
+    GalleryColor:"#FF641A",
+    GamesColor:"#FFC300",
+    OutlineInput:"#2483FF"
 
 };
 
@@ -32,7 +42,16 @@ export const Images={
     GalleryButton:`${Gallery}`,
     GalleryP:`${GalleryPhoto}`,
     Alien:`${AlienPhoto}`,
-    Braille:`${BraillePhoto}`
+    Braille:`${BraillePhoto}`,
+    MisijaVizija:`${MisijaV}`,
+    Klijneti:`${KlijnetiPhoto}`,
+    Yojstick:`${YojStickPhoto}`,
+    Game:`${GamePhoto}`,
+    Contact:`${ContactPhoto}`,
+    Fb:`${FbIcon}`,
+    Ig:`${IgIcon}`,
+    Git:`${GitIcon}`
+
 };
 
 export const OnlyButton=styled.button`
