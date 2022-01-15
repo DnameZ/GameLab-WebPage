@@ -10,9 +10,16 @@ export const ContentContainer=styled.div`
     height:70%;`;
 
 export const Photo=styled.img`
+    cursor:pointer;
     margin-right:15%;
     width:35%;
-    height:35%;`;
+    height:35%;
+    
+    &:hover
+    {
+        transform:scale(1.2);
+        transition: all .2s ease-in;
+    }`;
 
 export const textContainer=styled.div`
     display:flex;

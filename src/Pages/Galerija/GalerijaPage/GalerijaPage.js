@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { useNavigate } from 'react-router';
 
 import SidePlayStationLogo from '../../../Components/SidePlayStationLogo/SidePlayStationLogo';
 import Navigation from '../../../Components/Navigation/Navigation';
@@ -11,10 +12,19 @@ import { Images,Colors,HeadingContainer,HeadinOfPage } from '../../../Assets/Lib
 
 import { RTSpageContinaer as GalleryPageContainer } from "../RTS/RTSstyle";
 
-import { ContentContainer,Photo,Content,textContainer } from './GalerijaPageStyle';
+import { ContentContainer,Photo,Content } from './GalerijaPageStyle';
 
 
 const Gallery = () => {
+
+    const navigate=useNavigate();
+
+    const x = 100;
+    const y = 100;
+    const styles = { 
+        transform: `translate(${x}px, ${y}px)` 
+    };
+
     return ( 
         <GalleryPageContainer>
             <SideContainer Backcolor={Colors.GalleryColor}>
@@ -29,8 +39,8 @@ const Gallery = () => {
 
             <ContentContainer>
 
-                <Photo src={Images.Alien}/>
-                <Photo src={Images.Braille}/>
+                <Photo onClick={()=>navigate("/Galerija/RTS")} src={Images.Alien}/>
+                <Photo onClick={()=>navigate("/Galerija/Braille")} src={Images.Braille}/>
 
                 <textContainer>
                     <Content>

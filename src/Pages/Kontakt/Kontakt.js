@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { useNavigate } from 'react-router';
+
 import { RTSpageContinaer as KontaktPageContainer } from '../Galerija/RTS/RTSstyle';
 import { SideContainer } from '../../Components/SideContainer/SideContainerStyle';
 import { Photo } from '../O nama/MisijaVizija/MVstyle';
@@ -8,6 +10,9 @@ import { ContactButton, ContactContainer, Form, Input, TextArea, WebContainer,We
 
 
 const Kontakt = () => {
+
+    const navigate=useNavigate();
+
     return ( 
         <KontaktPageContainer>
             <SideContainer Backcolor={Colors.Black}>
@@ -15,7 +20,7 @@ const Kontakt = () => {
             </SideContainer>          
 
             <ContactContainer>
-                <ContactButton>HomePage</ContactButton>
+                <ContactButton onClick={()=>navigate("/Homepage")}>HomePage</ContactButton>
                     <Form>
                         <Input placeholder='Ime'/>
                         <Input placeholder='Prezime'/>

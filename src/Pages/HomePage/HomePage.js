@@ -10,6 +10,7 @@ import { SideContainerTitle } from "../../Components/SideContainer/SideContainer
 
 
 const HomePage = () => {
+
     return ( 
         <HomePageContainer>
             

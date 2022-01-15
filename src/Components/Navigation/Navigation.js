@@ -1,32 +1,44 @@
 import React from 'react';
 
+import { useNavigate } from "react-router-dom";
+
 import { NavigationContainer,
          HomePageButton,
          Select,
          Option } from './NavigationStyle';
 
 const Navigation = () => {
+
+    const navigate = useNavigate();
+
+    const handleChange=(e)=> {
+        navigate(`/${e.target.value}`
+        );
+      }
     return ( 
         <NavigationContainer>
 
-            <HomePageButton>Homepage</HomePageButton>
+            <HomePageButton onClick={()=>navigate("/Homepage")}>Homepage</HomePageButton>
 
-            <Select name='O nama' id='o nama'>
-                <Option value="Naš tim">Naš tim</Option>
-                <Option value="Misija i Vizija">Misija i Vizija</Option>
-                <Option value="Naši klijenti">Naši klijenti</Option>
+            <Select onChange={(event=>handleChange(event))} >
+                <Option>O nama</Option>
+                <Option value="Onama">Naš tim</Option>
+                <Option value="Onama/MsijaVizija">Misija i Vizija</Option>
+                <Option value="Onama/Klijenti">Naši klijenti</Option>
             </Select>
 
-            <Select name='Igre' id='igrice'>
+            <Select name='Igre' id='igrice'  onChange={(event=>handleChange(event))}>
+                <Option>Igrice</Option>
                 <Option value="Igre">Igre</Option>
-                <Option value="Naše Igre">Naše Igre</Option>
-                <Option value="Projekti">Projekti</Option>
+                <Option value="Igrice">Naše Igre</Option>
+                <Option value="Igre/Projekti">Projekti</Option>
             </Select>
 
-            <Select name='Galerija' id='galerija'>
+            <Select name='Galerija' id='galerija'  onChange={(event=>handleChange(event))}>
+                <Option>Naši radovi</Option>
                 <Option value="Galerija">Galerija</Option>
-                <Option value="RTS">RTS</Option>
-                <Option value="Braille">Braille</Option>
+                <Option value="Galerija/RTS">RTS</Option>
+                <Option value="Galerija/Braille" >Braille</Option>
             </Select>
 
         </NavigationContainer>

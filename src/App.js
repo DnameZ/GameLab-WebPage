@@ -1,5 +1,9 @@
 import './App.css';
 import React from 'react';
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+
+
+
 
 import HomePage from './Pages/HomePage/HomePage';
 import NašTim from './Pages/NašTim/NašTim';
@@ -15,9 +19,21 @@ import Kontakt from './Pages/Kontakt/Kontakt';
 
 function App() {
   return (
-    <div className="App">
-      <Kontakt/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/Homepage" element={<HomePage/>}/>
+        <Route path="/Onama" element={<NašTim/>}/>
+        <Route path="/Onama/MsijaVizija" element={<MV/>}/>
+        <Route path="/Onama/Klijenti" element={<Klijneti/>}/>
+        <Route path="/Igre" element={<Igre/>}/>
+        <Route path="/Igrice" element={<NašeIgre/>}/>
+        <Route path="/Igre/Projekti" element={<Projekti/>}/>
+        <Route path="/Galerija" element={<Gallery/>}/>
+        <Route path="/Galerija/RTS" element={<RTS/>}/>
+        <Route path="/Galerija/Braille" element={<Braille/>}/>
+        <Route path="/Kontakt" element={<Kontakt/>}/>
+      </Routes>
+    </Router>
   );
 }
 

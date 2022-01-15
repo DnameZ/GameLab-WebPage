@@ -43,22 +43,34 @@ export const HomePageButton=styled.button`
     }`;
 
     export const Select=styled.select`
+        cursor:pointer;
         border:none;
         text-align: center;
         font-weight:bold;
-        border-radius:15px;
+        border-radius:0px;
         width:23%;
         height:100%;
-        color:${Colors.TextColor};
+        color:${Colors.Black};
         -webkit-appearance: none;
-        
+
         
         &:focus
         {
             outline:none;
             border:none;
-        }`;
+        }
+        
+        &:active
+        {
+            outline:none;
+            border:none;
+        }
+        `;
 
     export const Option=styled.option`
         font-weight:bold;
-        color:${Colors.TextColor};`;
+        color:${Colors.Black};
+
+        
+        
+       `;

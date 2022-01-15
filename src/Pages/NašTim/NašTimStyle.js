@@ -70,6 +70,7 @@ export const LabMemFront=styled.div`
 
 export const LabMemBack=styled.div`
     position:absolute;
+    text-align:center;
     cursor:pointer;
     z-index:2;
     -webkit-backface-visibility: hidden;

@@ -44,6 +44,9 @@ export const ContactButton=styled.button`
     }`;
 
 export const Form=styled.form`
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     align-self:center;
     width:50%;
     height:50%;`;
