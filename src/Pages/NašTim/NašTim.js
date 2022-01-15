@@ -54,6 +54,7 @@ const NašTim = () => {
             <HeadingContainer>
                 <HeadinOfPage>Naš tim</HeadinOfPage>
             </HeadingContainer>
+            
             <GroupContainer>
 
                 <HeadOfLab>

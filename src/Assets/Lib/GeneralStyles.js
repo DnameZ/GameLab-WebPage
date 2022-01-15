@@ -2,16 +2,23 @@ import styled from "styled-components";
 
 import GamePady from "../../Assets/Images/GamePadEdited.jpg";
 import HomePage from "../../Assets/Images/HomepageButton.png";
+import Gallery from "../../Assets/Images/GalerijaButton.png";
 import GameLab from "../../Assets/Images/GamLabIcon.png";
 import AboutOus from "../../Assets/Images/Onama.png";
 import UserPhoto from "../../Assets/Images/Mem.png";
+import GalleryPhoto from "../../Assets/Images/Gallery.png";
+import AlienPhoto from "../../Assets/Images/alien.png";
+import BraillePhoto from "../../Assets/Images/Braille.png"
 
 
 export const Colors={
     White:"#ffff",
     Black:"#000000",
     TextColor:"#2483FF",
-    HoverColor:"#0077FF"
+    HoverColor:"#0077FF",
+    RTSGalleryColor:"#00FFCC",
+    BrailleColor:"#F7941E",
+    GalleryColor:"#FF641A"
 
 };
 
@@ -21,7 +28,11 @@ export const Images={
     HomePageButton:`${HomePage}`,
     GameLabIcon:`${GameLab}`,
     Onama:`${AboutOus}`,
-    User:`${UserPhoto}`
+    User:`${UserPhoto}`,
+    GalleryButton:`${Gallery}`,
+    GalleryP:`${GalleryPhoto}`,
+    Alien:`${AlienPhoto}`,
+    Braille:`${BraillePhoto}`
 };
 
 export const OnlyButton=styled.button`

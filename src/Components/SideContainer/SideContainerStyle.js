@@ -4,9 +4,11 @@ import { Images,Colors } from '../../Assets/Lib/GeneralStyles';
 
 export const SideContainer=styled.div`
     display:flex;
+    justify-content:center;
+    align-items:center;
     width:50vw;
     height:100%;
-    background-color: ${props => `${props.color}`};
+    background-color: ${props => `${props.Backcolor}`};
     background-image: ${props => `url(${props.background})`};
     background-position: center;
     background-size: contain;

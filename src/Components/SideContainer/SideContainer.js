@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { SideContainer as SideContainerHomePage, SideContainerTitle } from './SideContainerStyle';
+import { SideContainer} from './SideContainerStyle';
 
 const SideContianer = ({backgroundImage,backColor}) => {
     return (
-        <SideContainerHomePage background={backgroundImage} color={backColor}>
+        <SideContainer background={backgroundImage} Backcolor={backColor}>
 
-        </SideContainerHomePage>
+        </SideContainer>
       );
 }
  
