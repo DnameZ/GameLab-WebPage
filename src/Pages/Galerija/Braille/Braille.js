@@ -7,11 +7,7 @@ import Navigation from '../../../Components/Navigation/Navigation';
 
 
 
-import { BraillepageContinaer } from './BrailleStyle';
-
-import { VideoContainer,Videos } from '../RTS/RTSstyle';
-
-
+import { BraillepageContinaer,VideoContainer,Videos } from './BrailleStyle';
 
 import { SideContainer } from '../../../Components/SideContainer/SideContainerStyle';
 

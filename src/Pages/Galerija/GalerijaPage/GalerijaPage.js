@@ -44,10 +44,9 @@ const Gallery = () => {
 
                 <textContainer>
                     <Content>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare varius sem, ullamcorper viverra purus. 
-                        Morbi molestie, enim et laoreet condimentum, purus justo feugiat turpis, lobortis finibus orci neque id augue. 
-                        Sed interdum turpis sed ullamcorper feugiat. 
-                        Duis blandit a odio a viverra. Praesent et auctor mauris. Ut quis augue felis. Quisque
+                         Trenutno se može birati između dviju galerija sa naše dvije igrice koje za sada imamo.
+                         A to su RTS igra koja je još u razvijanju, i nadamo se da će biti u igrivom stanju do kraje ove godine.
+                         A druga je projekt sa kojim želimo osigurati učenje Braillovog pisma lakšim tako što će student učiti kroz igru. 
                     </Content>
                 </textContainer>
                 

@@ -1,7 +1,6 @@
 import './App.css';
-import React from 'react';
+import React,{useEffect} from 'react';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
-
 
 
 
@@ -18,10 +17,13 @@ import Projekti from './Pages/Igre/Projekti/Projekti';
 import Kontakt from './Pages/Kontakt/Kontakt';
 
 function App() {
+
+
+
   return (
     <Router>
       <Routes>
-        <Route path="/Homepage" element={<HomePage/>}/>
+        <Route path="/" element={<HomePage/>}/>
         <Route path="/Onama" element={<NašTim/>}/>
         <Route path="/Onama/MsijaVizija" element={<MV/>}/>
         <Route path="/Onama/Klijenti" element={<Klijneti/>}/>

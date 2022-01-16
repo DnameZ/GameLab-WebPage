@@ -18,7 +18,7 @@ const Navigation = () => {
     return ( 
         <NavigationContainer>
 
-            <HomePageButton onClick={()=>navigate("/Homepage")}>Homepage</HomePageButton>
+            <HomePageButton onClick={()=>navigate("/")}>Homepage</HomePageButton>
 
             <Select onChange={(event=>handleChange(event))} >
                 <Option>O nama</Option>

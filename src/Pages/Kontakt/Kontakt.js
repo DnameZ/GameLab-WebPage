@@ -20,7 +20,7 @@ const Kontakt = () => {
             </SideContainer>          
 
             <ContactContainer>
-                <ContactButton onClick={()=>navigate("/Homepage")}>HomePage</ContactButton>
+                <ContactButton onClick={()=>navigate("/")}>HomePage</ContactButton>
                     <Form>
                         <Input placeholder='Ime'/>
                         <Input placeholder='Prezime'/>

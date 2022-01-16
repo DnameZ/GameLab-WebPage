@@ -28,17 +28,17 @@ const NašeIgre = () => {
                 <HeadinOfPage>Naše igre</HeadinOfPage>
         
                 <Content>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Suspendisse ornare varius sem, ullamcorper viverra purus. 
-                    Morbi molestie, enim et laoreet condimentum, purus justo feugiat turpis, 
-                    lobortis finibus orci neque id augue. Sed interdum turpis sed ullamcorper feugiat. 
-                    Duis blandit a odio a viverra. Praesent et auctor mauris. Ut quis augue felis. 
-                    Quisque a eros hendrerit, interdum lacus vel, finibus ante. Vivamus consectetur lacus in nibh tristique semper. 
-                    Nunc interdum, nibh ac varius tempor, urna eros blandit enim, ut congue lectus sapien sit amet sapien. 
-                    Nam sit amet sem efficitur, dignissim risus ac, tempor tellus. Donec posuere sed diam ut eleifend. 
-                    In eget auctor neque, eu fringilla nunc. Vivamus sit amet nulla tincidunt, fermentum dui non, dictum dolor. 
-                    Donec id quam suscipit, tincidunt purus a, porta velit. Aliquam vitae augue mi. 
-                    Mauris sed metus maximus, auctor erat nec, interdum mi.
+                Kao što smo već naveli, relativno kratko smo u postojanju stoga su naše igre trenutno malobrojne no to ne 
+                znači da nisu kvalitetne i u njih uloženo puno truda. 
+                Prva igrica koju smo napravili je Braille, 
+                napravljena je po zahtjevu klijenta koji je želio igricu koja bi otvorila svijest o gluhonijemim osobama 
+                te naučila više ljudi Braillovo pismo na zabavan način. Igra je u stilu Wild West-a i kauboja. 
+                Igrač je kauboj koji mora pogoditi točkice na način da napiše jedno zadano slovo i Braillove abecede.
+                Druga igrica je RTS koja je trenutno u nastajanju te je nastala iz dogovora članova GameLab-a. 
+                Ova igrica ima drugačiju tematiku od prve te nema svrhu učenja već samu zabavu.
+                Uz ovu igricu su vezani vanzemaljci, 
+                koji bi došli na naš planet radi resursa te bi bila borba između njih i ljudi.
+
                 </Content>
             </ContentContainer>
 

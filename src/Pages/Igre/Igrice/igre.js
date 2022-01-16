@@ -28,17 +28,16 @@ const Igre = () => {
                 <HeadinOfPage>Igre</HeadinOfPage>
         
                 <Content>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Suspendisse ornare varius sem, ullamcorper viverra purus. 
-                    Morbi molestie, enim et laoreet condimentum, purus justo feugiat turpis, 
-                    lobortis finibus orci neque id augue. Sed interdum turpis sed ullamcorper feugiat. 
-                    Duis blandit a odio a viverra. Praesent et auctor mauris. Ut quis augue felis. 
-                    Quisque a eros hendrerit, interdum lacus vel, finibus ante. Vivamus consectetur lacus in nibh tristique semper. 
-                    Nunc interdum, nibh ac varius tempor, urna eros blandit enim, ut congue lectus sapien sit amet sapien. 
-                    Nam sit amet sem efficitur, dignissim risus ac, tempor tellus. Donec posuere sed diam ut eleifend. 
-                    In eget auctor neque, eu fringilla nunc. Vivamus sit amet nulla tincidunt, fermentum dui non, dictum dolor. 
-                    Donec id quam suscipit, tincidunt purus a, porta velit. Aliquam vitae augue mi. 
-                    Mauris sed metus maximus, auctor erat nec, interdum mi.
+                Videoigra je interaktivni elektronički računalni program namijenjen za zabavu. 
+                Najčešće se odvija na računalu, mobitelu ili igraćim konzolama s video zaslonom, kao što su računalni monitor 
+                ili TV. U novije vrijeme je jedan od najpopularnijih oblika zabave u svijetu. 
+                Videoigre se iz dana u dan razvijaju i poboljšavaju u tehničkim karakteristikama. 
+                Postaju sve važniji gospodarski čimbenik mnogih zemalja. 
+                Osnovni zahtjevi videoigara su izlazni grafički uređaji (najčešće monitor), 
+                te ulazni grafički uređaji. Mnoge novije igre zahtijevaju grafički procesor i mrežnu opremu.
+                <br/>
+                <br/>
+                Najpoznatiji žanrovi: arkade, open-world, horror, preživanje, simulacije, sportske, FPS, RPG.
                 </Content>
             </ContentContainer>
 
